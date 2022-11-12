@@ -39,17 +39,17 @@ function App() {
             <div className='grid-3'> 
 
             <div>
-              <img src="/representation.svg"/>
+              <img src="/representation.svg" alt="" />
               <p><b>Representation</b></p>
               <p>Concerns expressed by BIPOC students have often fallen on deaf ears at the Faculty of Information. As indicated in our 2020 Report on DEI at the iSchool, the faculty has a history of ignoring the needs of racialized students. Our group aims to give a voice for those at the margins through direct advocacy.</p>
             </div>
             <div>
-              <img src="/recognition.svg" />
+              <img src="/recognition.svg" alt="" />
               <p><b>Recognition</b></p>
               <p>
                 We aim to help all students feel recognized and “at home” at the iSchool. Through things like the development of educational resources and hosting culturally specific events, we hope to foster a space where BIPOC iSchool students feel safe, supported, and  empowered.</p></div>
             <div>
-              <img src="/redistribution.svg" />
+              <img src="/redistribution.svg" alt="" />
               <p><b>Redistribution</b></p>
               <p>
                 A major barrier that emerging BIPOC information professionals face is the lack of resources and support available. We want to help alleviate this by doing what we can to open up access to resources and opportunities for racialized students. Mentorship is one of our major focus areas in this domain.</p></div>
@@ -64,17 +64,17 @@ function App() {
           <div className='grid-3'>
 
             <div>
-              <img src="/yellow.svg" />
+              <img src="/yellow.svg" alt="" />
               <p><b>Documenting Student Voice</b></p>
               <p>Our goal is to identify the extent to which iSchool instructors include BIPOC scholars and practitioners in their course reading material</p>
             </div>
             <div>
-              <img src="/pink.svg" />
+              <img src="/pink.svg" alt="" />
               <p><b>DWG Radical Little Library</b></p>
               <p>
                 In 2019-2020, the DWG held two  successful discussions on readings that pertain to race & racism within the information professions. </p></div>
             <div>
-              <img src="/blue.svg" />
+              <img src="/blue.svg" alt="" />
               <p><b>Youth Outreach and Mentorship</b></p>
               <p>
                 In 2019, the DWG began to develop a BIPOC reading list that would provide alternative readings to the ones available through course syllabi. </p></div>
