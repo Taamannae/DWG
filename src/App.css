@@ -103,7 +103,7 @@ p {
 .about-us {
   position: relative;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .about-info {

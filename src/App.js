@@ -1,16 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-
-
 
 function App() {
   return (
     <div className="App">
       <div className='full-body'>
       <div className='logo-top'>
-        <img src="/Logo.svg"/>
+        <img src="/Logo.svg" alt=""/>
       </div>
-      <img className='circle' src="/circle.svg"/>
+        <img className='circle' src="/circle.svg" alt="" />
       <div className='quote'>
         <h2>Diversity Working Group</h2>
         <h1>An individual has not started living until he can rise above the narrow confines of his individualistic concerns to the broader concerns of all humanity.</h1>
@@ -20,7 +17,7 @@ function App() {
 
       <section className='about-us'>
         
-          <img className='about-graphic' src="/about.svg" />
+          <img className='about-graphic' src="/about.svg" alt="" />
 
         <div className='about-info'>
         <h3>About Us</h3>
