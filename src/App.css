@@ -167,14 +167,19 @@ p {
   margin-bottom: -10%;
 }
 
+
 .footer {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   width: 100%;
   flex-direction: column;
   z-index: -1;
   min-height: 50vh;
+}
+
+.about-info h4 {
+  margin: 40px 0px;
 }
 
 .bottom-cta h1 {

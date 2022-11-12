@@ -24,8 +24,8 @@ function App() {
         <h3>About Us</h3>
             <h4>Move In Formation 🐝</h4>
         <div className='grid'>
-            <p>The Diversity Working Group was founded in 2019 by Tomoko Shida, Moska Rokay, Renee Saucier, Stefanie Martin and Tam Rayan, with the hopes of evoking change and creating community at the University of Toronto's iSchool.</p>
-            <p>Our group works to improve the experiences of Black, Indigenous, and Persons of Colour (BIPOC) at the University of Toronto's Faculty of Information through workshops, reading groups, special events, and advocacy work with faculty and university administration.</p>
+            <p>The Diversity Working Group works to improve the experiences of Black, Indigenous, and Persons of Colour (BIPOC) at the University of Toronto's Faculty of Information through workshops, reading groups, special events, and advocacy work with faculty and university administration.</p>
+
           
            </div>
            </div>
