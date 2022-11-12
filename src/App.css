@@ -16,15 +16,16 @@
 
 .about-graphic {
   position: absolute;
-  top: 0;
+  bottom: 0;
   right: 0;
-  width: 50%;
   z-index: -1;
+
 }
 
 
 .logo-top {
   position: fixed;
+  z-index: 999999;
   top: 32px;
   left: 32px;
   background: #00000045;
@@ -91,6 +92,13 @@ font-family: 'Manrope';
   max-width: 1000px;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  gap: 32px;
+}
+
 p {
   color: #fff;
   font-family: 'Manrope';
@@ -98,6 +106,7 @@ p {
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
+    margin-bottom: -20px;
 }
 
 .about-us {
@@ -108,4 +117,11 @@ p {
 
 .about-info {
   padding: 32px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
