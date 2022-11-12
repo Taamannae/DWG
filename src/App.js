@@ -1,4 +1,5 @@
 import './App.css';
+import FeatherIcon from 'feather-icons-react';
 
 function App() {
   return (
@@ -60,9 +61,7 @@ function App() {
         <section className='mission'>
           <h3>Our Current Initiatives</h3>
           <h4>This Is How We Do It</h4>
-
           <div className='grid-3'>
-
             <div>
               <img src="/yellow.svg" alt="" />
               <p><b>Documenting Student Voice</b></p>
@@ -80,6 +79,38 @@ function App() {
                 In 2019, the DWG began to develop a BIPOC reading list that would provide alternative readings to the ones available through course syllabi. </p></div>
 
           </div>
+        </section>
+
+        <section className='footer'>
+          <div className='bottom-cta' style={{backgroundImage: "url('/bottom.svg')"}}>
+            <h1>Sound Interesting?</h1>
+            <h2>Come Join us</h2>
+
+            <a href="/" className='button' type="button" target="_blank">Join us</a>
+
+          </div>
+          <footer>
+            <div className='content'>
+              <div className='name'>
+                <img src="/line-logo.svg" alt="" />
+                <h3>Diversity working group</h3>
+              </div>
+              <div>
+                <a href='/' className='social'>
+                  <FeatherIcon icon="twitter" size="40" />
+                </a>
+                <a href='/' className='social'>
+                  <FeatherIcon icon="facebook" size="40" />
+                </a>
+                <a href='/' className='social'>
+                  <FeatherIcon icon="instagram" size="40" />
+                </a>
+                <a href='/' className='social'>
+                  <FeatherIcon icon="mail" size="40" />
+                </a>
+              </div>
+            </div>
+          </footer>
         </section>
       </div>
     </div>

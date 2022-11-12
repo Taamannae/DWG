@@ -92,6 +92,37 @@ font-family: 'Manrope';
   max-width: 1000px;
 }
 
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 24px;
+  display: inline-block;
+  text-decoration: none;
+  gap: 16px;
+  /* Black */
+  background: #231F20;
+  border-radius: 8px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  /* identical to box height, or 30px */
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button::after {
+  content: '\2192';
+  margin-left: 10px;
+  font-size: 20px;
+}
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -124,4 +155,96 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.bottom-cta {
+  width: 90%;
+  max-width: 1000px;
+  background-color: #DF5690;
+  padding: 40px;
+  border-radius: 16px;
+  z-index: 1;
+  margin-bottom: -10%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  flex-direction: column;
+  z-index: -1;
+  min-height: 50vh;
+}
+
+.bottom-cta h1 {
+  font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 96px */
+    letter-spacing: -0.05em;
+    /* Black */
+    color: #231F20;
+    margin: 0;
+}
+
+.bottom-cta h2 {
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px !important;
+  line-height: 120%;
+  /* identical to box height, or 96px */
+  letter-spacing: -0.05em;
+  color: rgba(35, 31, 32, 0.7);
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+footer {
+  background-color: #151515;
+  width: 100%;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+
+footer .content {
+  width: 100%;
+  max-width: 1080px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+footer .content div {
+  display: flex;
+}
+
+.name {
+  flex: 1;
+}
+
+.social {
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.social:hover {
+  background-color: #ffffff20;
+}
+
+footer h3 {
+  font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    margin-left: 16px;
+    color: #FFFFFF;
 }
